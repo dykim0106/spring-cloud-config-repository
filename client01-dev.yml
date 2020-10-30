@@ -1,1 +1,5 @@
-ddd
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
