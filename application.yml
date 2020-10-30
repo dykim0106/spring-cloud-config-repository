@@ -4,6 +4,12 @@ some:
   other:
     property: global
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
 eureka:
   client:
     serviceUrl:
